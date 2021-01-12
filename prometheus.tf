@@ -33,7 +33,7 @@ resource "helm_release" "prometheus" {
           replicaCount: 1
           persistentVolume:
             enabled: true
-            size: 512Mi
+            size: 1Gi
 
       EOT
   ]

@@ -29,11 +29,11 @@ resource "helm_release" "prometheus" {
           enabled: true
         
         pushgateway:
-          enabled: false
+          enabled: true
           replicaCount: 1
           persistentVolume:
             enabled: true
-            size: 1Gi
+            size: 512Mi
 
       EOT
   ]

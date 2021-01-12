@@ -51,6 +51,6 @@ Expose the ELK and Prometheus/Grafana services using the command below in order 
 ~~~
 minikube service grafana -n monitoring
 minikube service prometheus-server -n monitoring
-minikube service logstash-logstash -n tracing
-minikube service kibana-kibana -n tracing
+minikube service logstash -n tracing
+minikube service kibana -n tracing
 ~~~
